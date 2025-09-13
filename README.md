@@ -28,7 +28,7 @@ Operations Module – Implements the following features:
   MainApp:include main method
 
 5.How to Use:
-execute the file. Menu will appear on the screen (1:insert, 2:view, 3:update, 4:delete record, 5:exit). Enter the number according to your will. If you want insert student enter 1. Then it will ask the name and grade now you can enter records. Also other crude operations happens like this. Finally enter 5 and exit the system.
+execute the file. Menu will appear on the screen (1:insert record, 2:view record, 3:update record, 4:delete record, 5:exit). Enter the number according to your will. If you want insert student enter 1. Then it will ask the name and grade. Now you can enter records. Other crude operations also execute like this. Finally, enter 5 and exit from the system.
 
 Database Name: studentdb
 Table: studentData
