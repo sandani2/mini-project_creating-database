@@ -34,7 +34,7 @@ Database Name: studentdb
 Table: studentData
 Column	Data Type	Constraint
 name	VARCHAR(59)	Not Null
-grade	INT	Not Null
+grade	INT
 
 6.Conclusion:
 This project successfully demonstrates how to integrate Java applications with databases using JDBC.
