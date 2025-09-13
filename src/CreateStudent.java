@@ -13,7 +13,7 @@ public class CreateStudent {
 
                 String sql = "CREATE TABLE IF NOT EXISTS studentData (" +
                         "id INT PRIMARY KEY AUTO_INCREMENT," +
-                        "name VARCHAR(59)," + "age INT," + "grade INT)";
+                        "name VARCHAR(59)," + "grade INT)";
 
                 stmt.executeUpdate(sql);
                 System.out.println("Table Created Successfully");
