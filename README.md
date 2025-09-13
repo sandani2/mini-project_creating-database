@@ -19,18 +19,22 @@ MySQL Connector/J (JDBC Driver)
 The application consists of the following modules:
 Database Connection Module – Establishes a connection with MySQL using JDBC.
 Operations Module – Implements the following features:
-  Add Student: Insert new student records.
-  View Students: Display all student records.
-  Update Student: Modify existing records.
-  Delete Student: Remove a student record.
+  util->jdbc:build the connection
+  dao->StudentDAO:include all crude operations
+     Add Student: Insert new student records.
+     View Students: Display all student records.
+     Update Student: Modify existing records.
+     Delete Student: Remove a student record.
+  MainApp:include main method
+
+5.How to Use:
+execute the file. Menu will appear on the screen (1:insert, 2:view, 3:update, 4:delete record, 5:exit). Enter the number according to your will. If you want insert student enter 1. Then it will ask the name and grade now you can enter records. Also other crude operations happens like this. Finally enter 5 and exit the system.
 
 Database Name: studentdb
 Table: studentData
 Column	Data Type	Constraint
-id	INT	Primary Key, Auto Increment
 name	VARCHAR(59)	Not Null
-age	INT	Not Null
 grade	INT	Not Null
 
-5.Conclusion:
+6.Conclusion:
 This project successfully demonstrates how to integrate Java applications with databases using JDBC.
